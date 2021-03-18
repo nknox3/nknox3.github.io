@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/slideshow.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -22,8 +23,10 @@
 						<div class="content">
 							<h1>Nolan Knox</h1>
 							<p class="major">Mechanical Engineering Student at Georgia Institute of Technology</p>
-							<ul class="actions stacked">
-								<li><a href="#first" class="button big wide smooth-scroll-middle">Resume</a></li>
+							<ul class="actions">
+								<li><a href="attachments/Nolan Knox Resume.pdf" target="_blank" class="button big wide smooth-scroll-middle">Resume</a></li>
+								<li><a href="mailto:nknox@gatech.edu" target="_blank" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
+								<li><a href="https://www.linkedin.com/in/nolanknox/" target="_blank" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 							</ul>
 						</div>
 						<div class="image">
@@ -39,67 +42,346 @@
 								<li>Controlled mechatronic system using TI MSP432 programmed in C</li>
 								<li>Utilized encoders and pressure sensors for PID feedback control</li>
 								<li>Fabricated parts through 3D printing, laser cutting, and water jetting</li>
+								<li><a href="https://www.youtube.com/watch?v=yK4TiakNspw" target="_blank">Video Demonstration</a></li>
 							</ul>
 						</div>
 						<!-- Slideshow container -->
-						<div class="slideshow-container">
+						<div id="slideshow1" class="slideshow-container">
 
 						  <!-- Full-width images with number and caption text -->
 						  <div class="mySlides fade">
-							<div class="numbertext">1 / 3</div>
-							<img src="images/robot1.png" style="width:100%">
-							<div class="text">Caption Text</div>
+							<div class="numbertext">1 / 7</div>
+							<img src="images/robot1.png" style="width:750px">
 						  </div>
 
 						  <div class="mySlides fade">
-							<div class="numbertext">2 / 3</div>
-							<img src="images/robot2.jpg" style="height:100%">
-							<div class="text">Caption Two</div>
+							<div class="numbertext">2 / 7</div>
+							<img src="images/robot2.jpg" style="width:750px">
+						  </div>
+						  
+						  <div class="mySlides fade">
+							<div class="numbertext">3/ 7</div>
+							<img src="images/robotCad.png" style="width:750px">
+							<div class="text">CAD model of base assembly with treads (later changed to wheels)</div>
 						  </div>
 
 						  <div class="mySlides fade">
-							<div class="numbertext">3 / 3</div>
-							<img src="images/robot3.jpg" style="width:100%">
-							<div class="text">Caption Three</div>
+							<div class="numbertext">4 / 7</div>
+							<img src="images/robot4.png" style="width:750px">
+						  </div>
+						  
+						  <div class="mySlides fade">
+							<div class="numbertext">5 / 7</div>
+							<video src="images/perturbations 2.mp4" style="width:750px" controls autoplay muted>
+							<div class="text">Demonstration of arm lowering and grasping</div>
+						  </div>
+						  
+						  <div class="mySlides fade">
+							<div class="numbertext">6 / 7</div>
+							<video src="images/drive.mp4" style="width:750px" controls autoplay muted>
+							<div class="text">Demonstration of remote driving</div>
+						  </div>
+						  
+						  <div class="mySlides fade">
+							<div class="numbertext">7 / 7</div>
+							<video src="images/perturbations 1.mp4" style="width:750px" controls autoplay muted>
+							<div class="text">Demonstration of PID control grasping to prevent crushing object</div>
 						  </div>
 
 						  <!-- Next and previous buttons -->
-						  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-						  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+						  <a class="prev" onclick="plusSlides(-1,slideshow1)">&#10094;</a>
+						  <a class="next" onclick="plusSlides(1,slideshow1)">&#10095;</a>
+						  
+						  
 						</div>
 					</section>
 
 				<!-- Three -->
 					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
 						<div class="content">
-							<h2>Tempus adipiscing</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu 
-bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>
-							<ul class="actions stacked">
-								<li><a href="#" class="button">Learn More</a></li>
+							<h2>Thin Resin Layer Deformation in Supportless SLA 3D Printing</h2>
+							<ul>
+								<li>Cured single layer cantilevered beam on saline solution</li>
+								<li>Modelled forces acting on system through free body diagram</li>
+								<li>Determined deflection caused by layer of uncured resin with lower density</li>
 							</ul>
 						</div>
-						<div class="image">
-							<img src="images/spotlight02.jpg" alt="" />
+						<!-- Slideshow container -->
+						<div id="slideshow2" class="slideshow-container">
+
+						  <!-- Full-width images with number and caption text -->
+						  <div class="mySlides fade">
+							<div class="numbertext">1 / 3</div>
+							<img src="images/robot1.png" style="width:750px">
+						  </div>
+
+						  <div class="mySlides fade">
+							<div class="numbertext">2 / 3</div>
+							<img src="images/robot2.jpg" style="width:750px">
+						  </div>
+
+						  <div class="mySlides fade">
+							<div class="numbertext">3 / 3</div>
+							<img src="images/robot3.jpg" style="width:750px">
+						  </div>
+
+						  <!-- Next and previous buttons -->
+						  <a class="prev" onclick="plusSlides(-1,slideshow2)">&#10094;</a>
+						  <a class="next" onclick="plusSlides(1,slideshow2)">&#10095;</a>
+						  
+						  <div style="text-align:center">
+							  <span class="dot" onclick="currentSlide(1,slideshow2)"></span> 
+							  <span class="dot" onclick="currentSlide(2,slideshow2)"></span> 
+							  <span class="dot" onclick="currentSlide(3,slideshow2)"></span> 
+							</div>
 						</div>
 					</section>
 
 				<!-- Four -->
-					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
 						<div class="content">
-							<h2>Pharetra etiam nulla</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu 
-bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>
-							<ul class="actions stacked">
-								<li><a href="#" class="button">Learn More</a></li>
+							<h2>Surface Wettability Testing in Supportless SLA 3D Printing</h2>
+							<ul>
+								<li>Determined minimum resin layer thickness</li>
+								<li>Utilized MATLAB image processing to determine percentage of surface covered</li>
 							</ul>
 						</div>
-						<div class="image">
-							<img src="images/spotlight03.jpg" alt="" />
+						<!-- Slideshow container -->
+						<div id="slideshow3" class="slideshow-container">
+
+						  <!-- Full-width images with number and caption text -->
+						  <div class="mySlides fade">
+							<div class="numbertext">1 / 3</div>
+							<img src="images/pic01.jpg" style="width:750px">
+						  </div>
+
+						  <div class="mySlides fade">
+							<div class="numbertext">2 / 3</div>
+							<img src="images/robot2.jpg" style="width:750px">
+						  </div>
+
+						  <div class="mySlides fade">
+							<div class="numbertext">3 / 3</div>
+							<img src="images/robot3.jpg" style="width:750px">
+						  </div>
+
+						  <!-- Next and previous buttons -->
+						  <a class="prev" onclick="plusSlides(-1,slideshow3)">&#10094;</a>
+						  <a class="next" onclick="plusSlides(1,slideshow3)">&#10095;</a>
+						  
+						  <div style="text-align:center">
+							  <span class="dot" onclick="currentSlide(1,slideshow3)"></span> 
+							  <span class="dot" onclick="currentSlide(2,slideshow3)"></span> 
+							  <span class="dot" onclick="currentSlide(3,slideshow3)"></span> 
+							</div>
 						</div>
 					</section>
 
 				<!-- Five -->
+					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+						<div class="content">
+							<h2>Autonomous Hydralic Valve Test Stand Quality Analysis at Sun Hydraulics</h2>
+							<ul>
+								<li>Performed comparative analysis between manual and autonomous test stands</li>
+								<li>Identified quality issue associated with autonomous test stands</li>
+								<li>Explored potential causes for discrepancy between stands</li>
+							</ul>
+						</div>
+						<!-- Slideshow container -->
+						<div id="slideshow4" class="slideshow-container">
+
+						  <!-- Full-width images with number and caption text -->
+						  <div class="mySlides fade">
+							<div class="numbertext">1 / 3</div>
+							<img src="images/robot1.png" style="width:750px">
+						  </div>
+
+						  <div class="mySlides fade">
+							<div class="numbertext">2 / 3</div>
+							<img src="images/robot2.jpg" style="width:750px">
+						  </div>
+
+						  <div class="mySlides fade">
+							<div class="numbertext">3 / 3</div>
+							<img src="images/robot3.jpg" style="width:750px">
+						  </div>
+
+						  <!-- Next and previous buttons -->
+						  <a class="prev" onclick="plusSlides(-1,slideshow4)">&#10094;</a>
+						  <a class="next" onclick="plusSlides(1,slideshow4)">&#10095;</a>
+						  
+						  <div style="text-align:center">
+							  <span class="dot" onclick="currentSlide(1,slideshow4)"></span> 
+							  <span class="dot" onclick="currentSlide(2,slideshow4)"></span> 
+							  <span class="dot" onclick="currentSlide(3,slideshow4)"></span> 
+							</div>
+						</div>
+					</section>
+					
+				<!-- Six -->
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
+						<div class="content">
+							<h2>Create-X Idea to Prototype: Sun Roots Beach Umbrella Anchor</h2>
+							<ul>
+								<li>Experienced full process of idea generation to working prototype</li>
+								<li>Created designs through use of SolidWorks and shop tools such as 3D printing and water jetting</li>
+							</ul>
+						</div>
+						<!-- Slideshow container -->
+						<div id="slideshow5" class="slideshow-container">
+
+						  <!-- Full-width images with number and caption text -->
+						  <div class="mySlides fade">
+							<div class="numbertext">1 / 3</div>
+							<img src="images/robot1.png" style="width:750px">
+						  </div>
+
+						  <div class="mySlides fade">
+							<div class="numbertext">2 / 3</div>
+							<img src="images/robot2.jpg" style="width:750px">
+						  </div>
+
+						  <div class="mySlides fade">
+							<div class="numbertext">3 / 3</div>
+							<img src="images/robot3.jpg" style="width:750px">
+						  </div>
+
+						  <!-- Next and previous buttons -->
+						  <a class="prev" onclick="plusSlides(-1,slideshow5)">&#10094;</a>
+						  <a class="next" onclick="plusSlides(1,slideshow5)">&#10095;</a>
+						  
+						  <div style="text-align:center">
+							  <span class="dot" onclick="currentSlide(1,slideshow5)"></span> 
+							  <span class="dot" onclick="currentSlide(2,slideshow5)"></span> 
+							  <span class="dot" onclick="currentSlide(3,slideshow5)"></span> 
+							</div>
+						</div>
+					</section>
+					
+				<!-- Seven -->
+					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+						<div class="content">
+							<h2>Invention Studio Personal Projects</h2>
+							<ul>
+								<li>Utilized makerspace tools to create many different projects</li>
+								<li>Became wood room master after completing certain wood projects</li>
+							</ul>
+						</div>
+						<!-- Slideshow container -->
+						<div id="slideshow6" class="slideshow-container">
+
+						  <!-- Full-width images with number and caption text -->
+						  <div class="mySlides fade">
+							<div class="numbertext">1 / 3</div>
+							<img src="images/robot1.png" style="width:750px">
+						  </div>
+
+						  <div class="mySlides fade">
+							<div class="numbertext">2 / 3</div>
+							<img src="images/robot2.jpg" style="width:750px">
+						  </div>
+
+						  <div class="mySlides fade">
+							<div class="numbertext">3 / 3</div>
+							<img src="images/robot3.jpg" style="width:750px">
+						  </div>
+
+						  <!-- Next and previous buttons -->
+						  <a class="prev" onclick="plusSlides(-1,slideshow6)">&#10094;</a>
+						  <a class="next" onclick="plusSlides(1,slideshow6)">&#10095;</a>
+						  
+						  <div style="text-align:center">
+							  <span class="dot" onclick="currentSlide(1,slideshow6)"></span> 
+							  <span class="dot" onclick="currentSlide(2,slideshow6)"></span> 
+							  <span class="dot" onclick="currentSlide(3,slideshow6)"></span> 
+							</div>
+						</div>
+					</section>
+					
+				<!-- Eight -->
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
+						<div class="content">
+							<h2>Robot Competition</h2>
+							<ul>
+								<li>Achieved 3rd place in design review and quarterfinal finish</li>
+								<li>Programmed system using LabVIEW for National Instruments myRIO</li>
+								<li>Used mechanical design tools such as SolidWorks to generate subsystem layout</li>
+							</ul>
+						</div>
+						<!-- Slideshow container -->
+						<div id="slideshow7" class="slideshow-container">
+
+						  <!-- Full-width images with number and caption text -->
+						  <div class="mySlides fade">
+							<div class="numbertext">1 / 3</div>
+							<img src="images/robot1.png" style="width:750px">
+						  </div>
+
+						  <div class="mySlides fade">
+							<div class="numbertext">2 / 3</div>
+							<img src="images/robot2.jpg" style="width:750px">
+						  </div>
+
+						  <div class="mySlides fade">
+							<div class="numbertext">3 / 3</div>
+							<img src="images/robot3.jpg" style="width:750px">
+						  </div>
+
+						  <!-- Next and previous buttons -->
+						  <a class="prev" onclick="plusSlides(-1,slideshow7)">&#10094;</a>
+						  <a class="next" onclick="plusSlides(1,slideshow7)">&#10095;</a>
+						  
+						  <div style="text-align:center">
+							  <span class="dot" onclick="currentSlide(1,slideshow7)"></span> 
+							  <span class="dot" onclick="currentSlide(2,slideshow7)"></span> 
+							  <span class="dot" onclick="currentSlide(3,slideshow7)"></span> 
+							</div>
+						</div>
+					</section>
+					
+				<!-- Nine -->
+					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+						<div class="content">
+							<h2>Combustion Reaction Simulation at Ben T. Zinn Combustion Lab</h2>
+							<ul>
+								<li>Modelled combustion reactions using CHEMKIN</li>
+								<li>Plotted data using MATLAB to determine trends</li>
+								<li>Used data to determine fuel composition for physical experimentation</li>
+							</ul>
+						</div>
+						<!-- Slideshow container -->
+						<div id="slideshow8" class="slideshow-container">
+
+						  <!-- Full-width images with number and caption text -->
+						  <div class="mySlides fade">
+							<div class="numbertext">1 / 3</div>
+							<img src="images/robot1.png" style="width:750px">
+						  </div>
+
+						  <div class="mySlides fade">
+							<div class="numbertext">2 / 3</div>
+							<img src="images/robot2.jpg" style="width:750px">
+						  </div>
+
+						  <div class="mySlides fade">
+							<div class="numbertext">3 / 3</div>
+							<img src="images/robot3.jpg" style="width:750px">
+						  </div>
+
+						  <!-- Next and previous buttons -->
+						  <a class="prev" onclick="plusSlides(-1,slideshow8)">&#10094;</a>
+						  <a class="next" onclick="plusSlides(1,slideshow8)">&#10095;</a>
+						  
+						  <div style="text-align:center">
+							  <span class="dot" onclick="currentSlide(1,slideshow8)"></span> 
+							  <span class="dot" onclick="currentSlide(2,slideshow8)"></span> 
+							  <span class="dot" onclick="currentSlide(3,slideshow8)"></span> 
+							</div>
+						</div>
+					</section>
+					
+				<!-- Five -->
+				<!--
 					<section class="wrapper style1 align-center">
 						<div class="inner">
 							<h2>Massa sed condimentum</h2>
@@ -108,7 +390,7 @@ bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hend
 						</div>
 
 						<!-- Gallery -->
-							<div class="gallery style2 medium lightbox onscroll-fade-in">
+						<!--	<div class="gallery style2 medium lightbox onscroll-fade-in">
 								<article>
 									<a href="images/gallery/fulls/01.jpg" class="image">
 										<img src="images/gallery/thumbs/01.jpg" alt="" />
@@ -258,7 +540,7 @@ bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hend
 					</section>
 
 				<!-- Six -->
-					<section class="wrapper style1 align-center">
+				<!--	<section class="wrapper style1 align-center">
 						<div class="inner">
 							<h2>Ipsum sed consequat</h2>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu 
@@ -341,7 +623,7 @@ risus nec tempor elit.</p>
 					</section>
 
 				<!-- Seven -->
-					<section class="wrapper style1 align-center">
+				<!--	<section class="wrapper style1 align-center">
 						<div class="inner medium">
 							<h2>Get in touch</h2>
 							<form method="post" action="#">
@@ -368,7 +650,7 @@ risus nec tempor elit.</p>
 					</section>
 
 				<!-- Footer -->
-					<footer class="wrapper style1 align-center">
+					<!--<footer class="wrapper style1 align-center">
 						<div class="inner">
 							<ul class="icons">
 								<li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
@@ -380,7 +662,7 @@ risus nec tempor elit.</p>
 							<p>&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 						</div>
 					</footer>
-
+					-->
 			</div>
 
 		<!-- Scripts -->
@@ -391,6 +673,6 @@ risus nec tempor elit.</p>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script type = "text/javascript" src="assets/js/slideshow.js"></script> 
 	</body>
 </html>
