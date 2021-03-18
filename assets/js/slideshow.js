@@ -53,5 +53,5 @@ function showSlides(n,slideshow) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
   slides[slideshow.currentSlideIndex-1].style.display = "block";  
-  dots[slideshow.currentSlideIndex-1].className += " active";
+  //dots[slideshow.currentSlideIndex-1].className += " active";
 }
